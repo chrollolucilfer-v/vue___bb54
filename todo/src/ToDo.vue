@@ -1,7 +1,7 @@
 <script setup>
 import {ref} from 'vue'
 const newTask = ref('')
-const tasks = ref([])
+const tasks = ref([]) // this array stores all taskx
 // these are reactive variable created using ref() function
 // ref makes a value reactive
 // reactive means when the value changes it automaticlly updates the ui
