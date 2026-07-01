@@ -1,5 +1,5 @@
 <script setup>
-import { reactive, ref, computed } from "vue";
+import { reactive, ref, computed, watch } from "vue";
 const firstName = ref("bhasgkar");
 const lastName = ref("gupta");
 const fullName = computed(() => firstName.value + " " + lastName.value);
